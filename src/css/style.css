@@ -1,0 +1,404 @@
+/* ---------------------------------------
+    Copyright 2020
+    Created and Designed by Rifqi Ardhian
+
+    Authentic Design
+    Retro - Old Camera Website
+--------------------------------------- */
+
+/* Start Home Page */
+.banner {
+    position: relative;
+}
+.features {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.feature-title {
+    font-weight: bold;
+}
+.feature-subtitle {
+    color: #aaaaaa;
+}
+.feature-icon {
+    color: #ececec;
+    transition: 0.3s ease;
+}
+.feature-icon:hover {
+    color: #aaaaaa;
+}
+.about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.about-photo {
+    position: relative;
+    text-align: center;
+}
+.text-image {
+    position: absolute;
+    bottom: -40px;
+    left: -6px;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: 	#ececec;
+}
+.about-content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: 	#222222;
+}
+.about-text {
+    margin-top: 20px;
+    color: #aaaaaa;
+}
+.btn-see-more {
+    margin-top: 10px;
+    background-color: #aaaaaa;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+.btn-see-more:hover {
+    background-color: transparent;
+    border: 2px solid #aaaaaa;
+    padding: 15px 40px;
+    border-radius: 50px;
+    color: #aaaaaa;
+    font-weight: bold;
+}
+.product {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.product-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: 	#222222;
+}
+.category-item {
+    color: #222222 !important;
+}
+.category-item-active {
+    color: #222222;
+    border-bottom: 2px solid #222222;
+}
+.card-product {
+    margin-top: 50px;
+    border-radius: 0px;
+    border: 0px;
+}
+.badge-product {
+    top: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    background-color: #616161;
+    font-weight: lighter;
+    color: #fff;
+    position: absolute;
+}
+.product-img {
+    padding: 20px;
+    background-color: #ececec;
+}
+.img-product {
+    height: 200px;
+}
+.card-product-title {
+    color: #aaaaaa;
+}
+.card-product-price {
+    color: #222222;
+}
+.colour-palette {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img-palette {
+    width: 350px;
+}
+/* End Home Page */
+
+/* Start About Page */
+.banner-retro {
+    position: relative;
+}
+.title-retro-page {
+    position: absolute;
+    bottom: -30px;
+    left: 1px;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: 	#ececec;
+}
+/* End About Page */
+
+/* Start Product Page */
+.btn-dropdown {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #080808;
+    font-size: large;
+}
+.pagination {
+    margin-top: 50px;
+    display: inline-block;
+}  
+.pagination a {
+    color:#080808;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+.pagination a.active {
+    background-color:#222222;
+    color: 	#ececec;
+    font-weight: bold;
+}
+.pagination a:hover:not(.active) {background-color: #ececec;}
+/* End Product Page */
+
+/* Start Detail Product  */
+.detail_product {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-product-detail {
+    border-radius: 0px;
+    border: 0px;
+}
+.badge-product-detail {
+    top: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    background-color: #616161;
+    font-weight: lighter;
+    color: #fff;
+    position: absolute;
+}
+.product-detail-img {
+    padding: 20px;
+    background-color: #ececec;
+}
+.img-product-detail {
+    height: 300px;
+}
+.btn-add-cart {
+    background-color: transparent;
+    border: 1px solid #222222;
+    border-radius: 50px;
+    color: #222222;
+    padding: 15px 30px;
+}
+.btn-add-cart:hover {
+    background-color: #222222;
+    color: #ececec;
+}
+.star-checked {
+    color: gold ;
+}
+/* End Detail Product */
+
+/* Start Contact Page */
+.contact {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact-input {
+    border-radius: 0px;
+    padding: 20px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-contact {
+    padding: 20px;
+    border-radius: 0px;
+    background-color: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact-title {
+    color: #222222;
+}
+.contact-info {
+    color: #aaaaaa;
+}
+.row-maps {
+    margin-top: 30px;
+}
+/* End Contact Page */
+
+/* Start Login Page */
+.login {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ececec;
+}
+.login-card {
+    margin: auto;
+    padding: 40px;
+}
+.login-title {
+    font-size: 50px;
+    color: #080808;
+}
+.login-input {
+    border-radius: 0px;
+    padding: 25px;
+    font-size: 20px;
+}
+.btn-login {
+    background-color: #080808;
+    color: #ececec;
+    padding: 15px 50px;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+.btn-login:hover {
+    background-color: transparent;
+    color: #080808;
+    border: 1px solid #080808;
+}
+/* End Login Page */
+
+/* Start Register Page */
+.register {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ececec;
+}
+.register-card {
+    margin: auto;
+    padding: 40px;
+}
+.register-title {
+    font-size: 50px;
+    color: #080808;
+}
+.register-input {
+    border-radius: 0px;
+    padding: 25px;
+    font-size: 20px;
+}
+.btn-register {
+    background-color: #080808;
+    color: #ececec;
+    padding: 15px 50px;
+    border-radius: 50px;
+    transition: 0.3s ease;
+}
+.btn-register:hover {
+    background-color: transparent;
+    color: #080808;
+    border: 1px solid #080808;
+}
+/* End Register Page */
+
+/* Responsive Custom */
+@media only screen and (max-width: 768px) {
+    .title-retro-page {
+        font-size: 60px;
+        position: absolute;
+        bottom: -20px;
+        left: 1px;
+    }
+    .card-contact {
+        margin-top: 30px;
+    }
+    .row-maps {
+        margin-top: 50px;
+    }
+    .text-banner {
+        position: absolute;
+        top : 50%;
+        left: 50px;
+        font-size: 70px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: 	#222222;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .banner, .banner-retro{
+        margin-top: 70px;
+    }
+    .text-banner {
+        position: absolute;
+        top : 50%;
+        left: 20px;
+        font-size: 60px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: 	#222222;
+    }
+}
+@media only screen and (min-width: 500px) {
+    .text-banner {
+        position: absolute;
+        top : 50%;
+        left: 20px;
+        font-size: 120px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: 	#222222;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .banner, .banner-retro{
+        margin-top: 70px;
+    }
+}
+@media only screen and (min-width: 991px) {
+    .text-banner {
+        position: absolute;
+        top : 50%;
+        left: 50px;
+        font-size: 120px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: 	#222222;
+    }
+    .login-card {
+        margin: auto;
+        padding: 15px;
+    }
+    .register-card {
+        margin: auto;
+        padding: 15px;
+    }
+}
+@media only screen and (min-width: 780px) {
+    .about-content {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        margin-right: 50px;
+    }
+    .about-title {
+        font-weight: bold;
+    }
+}
+@media only screen and (min-width: 1000px) {
+    .text-banner {
+        position: absolute;
+        top : 50%;
+        left: 50px;
+        font-size: 200px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: 	#222222;
+    }
+    .login-card {
+        width: 40rem;
+    }
+    .register-card {
+        width: 40rem;
+    }
+}
+/* End Responsive Custom */

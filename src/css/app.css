@@ -1,0 +1,86 @@
+/* ---------------------------------------
+    Copyright 2020
+    Created and Designed by Rifqi Ardhian
+
+    Authentic Design
+    Retro - Old Camera Website
+--------------------------------------- */
+
+html {
+    scroll-behavior: smooth;
+}
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: none;
+    margin-top: 0;
+}
+.navbar {
+    background-color: transparent;
+    transition: 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+nav.shrink {
+    background-color: white;
+    box-shadow: 0 1px 4px 0 rgb(0, 0, 0, 5);
+}
+.nav-item {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: black;
+}
+.logo {
+    width: 140px;
+    opacity: 0.5;
+    padding: 20px;
+}
+.footer {
+    width: auto;
+    color: #ececec;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.row-footer {
+    padding: 40px;
+    background-color: #222222;
+    font-weight: lighter;
+}
+.row-credit {
+    padding: 40px;
+    background-color: #080808;
+    font-weight: lighter;
+}
+.logo-footer {
+    width: 200px;
+    padding-bottom: 10px;
+}
+.link-footer {
+    text-decoration: none;
+    color: #ececec;
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        position: fixed;
+        background-color: white;
+    }
+    .logo {
+        width: 100px;
+        opacity: 0.5;
+        padding: 5px;
+    }
+    .nav-collapse {
+        background-color: white;
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .logo {
+        width: 120px;
+        opacity: 0.5;
+        padding: 10px;
+    }
+    .nav-collapse {
+        background-color: white;
+    }
+}
